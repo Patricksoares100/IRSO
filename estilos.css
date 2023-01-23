@@ -1,0 +1,37 @@
+.fundo{
+	background-image: url(https://www.sanfil.pt/wp-content/uploads/2018/03/Parque-Nazar%C3%A9.jpg); /*imagem de fundo*/
+	background-size: cover;
+
+}
+
+
+.carropequeno{
+		width: 30px;
+}
+.tabeladetalhes{
+	background-color: rgb(244, 244, 244);
+	box-shadow: black;
+	padding: 2rem;
+	border-radius: 1rem;
+	padding: 80px;
+	margin: 80px; 
+	opacity: 80%;
+	 }
+
+.titulo{
+	background-color: rgb(244, 244, 244);
+	box-shadow: black;
+	padding: 2rem;
+	border-radius: 1rem;
+	text-align: center;
+}
+
+.subtitulo{
+	background-image: url(https://i.postimg.cc/mkNkh2gb/Captura-de-ecr-2023-01-23-234246.png);
+	/*background-color: rgb(244, 244, 244);*/
+	box-shadow: black;
+	padding: 2rem;
+	border-radius: 1rem;
+	text-align: center;
+}
+
