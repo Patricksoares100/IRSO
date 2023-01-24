@@ -4,13 +4,13 @@
 	<meta charset="UTF-8">
 	<title>PORTAS </title>
 	<meta http-equiv="refresh" content="5"> 
-	<link rel="stylesheet" type="text/css" href="estilos.css">			
+	<link rel = "stylesheet" type = "text/css" href = "estilos1.css">			
 </head>	<!-- Refresh automático -->
 
-<body>
-	<h1>PORTA</h1>
+<body class = fundo>
+	<h1 class = titulo>PORTA</h1>
 	
-	<div>
+	<div class=tabeladetalhes>
 		
 		<h3>PORTA ENTRADA: </h3>
 		<p>	
@@ -23,7 +23,6 @@
    					 echo "Ocupado";
  					 }
 			?>
-			<?php 
 			
 			<?php 
 				echo $valorportas = file_get_contents("files/portas/portas/porta_entrada.txt");
@@ -40,7 +39,6 @@
 					echo "Ocupado";
 				  }
 		?>
-		<?php 
 
 			<?php 
 				echo $valorportas = file_get_contents("files/portas/portas/porta_saida.txt");
@@ -60,8 +58,8 @@
 
 		<p>
 
-	<a href="index.html">Página inicial</a>	
-	
+		<a href="index.html">Página inicial</a>	
+	</div> 
 </body>
 
 </html>

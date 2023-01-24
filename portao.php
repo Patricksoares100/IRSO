@@ -4,12 +4,13 @@
 	<meta charset="UTF-8">
 	<title>PORTAS / PORTOES</title>
 	<meta http-equiv="refresh" content="5"> 	<!-- Refresh automático -->
+	<link rel = "stylesheet" type = "text/css" href = "estilos1.css">
 </head>
 
-<body>
-	<h1>PORTAO</h1>
+<body class = fundo>
+	<h1 class = titulo>PORTAO</h1>
 	
-	<div>
+	<div class="tabeladetalhes">
 		
 		<h3>PORTAO ENTRADA:</h3>
 		<p>	
@@ -38,14 +39,13 @@
  					 }
 			?>
 			<?php 
-			<?php 
 				echo $valorportas = file_get_contents("files/portas/portao/portao_saida.txt"); 
 			?>						
 
 		<p>
 
 	<a href="index.html">Página inicial</a>	
-	
+	</div>
 </body>
 
 </html>

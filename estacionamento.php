@@ -4,14 +4,17 @@
 	<meta charset="UTF-8">
 	<title>TEMPERATURA (DIZER TEMPERATURA)</title>
 	<meta http-equiv="refresh" content="5"> 	<!-- Refresh automático -->
+	<link rel = "stylesheet" type = "text/css" href = "estilos1.css">
 </head>
 
-<body>
+<body class=fundo>
+	<!--<img src="https://www.sanfil.pt/wp-content/uploads/2018/03/Parque-Nazar%C3%A9.jpg">-->
 
-	<h1>ESTACIONAMENTO </h1>
+	<h1 class=titulo>ESTACIONAMENTO </h1>
 	
-	<div>
+	<div class="tabeladetalhes">
 		<h3>ESTACIONAMENTO 1:</h3>
+		<a><img src="" alt="">
 		<p> 
 		<?php
   			$file   = "files/estacionamento/P01.txt";
@@ -168,7 +171,7 @@
 		<p>
 
 	<a href="index.html">Página inicial</a>	
-	
+	</div>
 </body>
 
 </html>
